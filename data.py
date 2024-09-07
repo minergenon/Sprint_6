@@ -1,7 +1,7 @@
-main_page = 'https://qa-scooter.praktikum-services.ru/'
+MAIN_PAGE = 'https://qa-scooter.praktikum-services.ru/'
 
 class TestData:
-    dzen_title = "Дзен"
+    DZEN_TITLE = "Дзен"
 
     test_data_user1 = ['Иван', 'Иванов', 'ул. Ленина, 1', 'Лубянка', '+79001112233', '16.06.2024', 'Хорошая погода :)']
 

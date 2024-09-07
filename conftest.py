@@ -1,7 +1,7 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-from data import main_page
+from data import MAIN_PAGE
 
 @pytest.fixture(scope="function")
 def driver():
@@ -10,6 +10,6 @@ def driver():
     firefox_options.add_argument("--height=1080")
     firefox_options.set_preference("browser.privatebrowsing.autostart", True)
     driver = webdriver.Firefox(options=firefox_options)
-    driver.get(main_page)
+    driver.get(MAIN_PAGE)
     yield driver
     driver.quit()

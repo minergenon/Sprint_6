@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class MainPageLocators:
-    main_header = (By.XPATH, '//div[contains(@class, "Home_Header__iJKdX")]')
+    main_header = (By.XPATH, '//div[contains(@class, "Home_Header")]')
     dzen_title = (By.XPATH, '//title[contains(text(), "Дзен")]')
     # Раздел "Вопросы о важном"
     faq_section = (By.XPATH, '//div[contains(@class, "Home_FAQ")]')
